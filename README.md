@@ -37,7 +37,7 @@ Acceptance Criteria
 
 ## How to use
 
-1. Open the [Web APIs Challenge: Code Quiz URL]() in your browser.
+1. Open the [Web APIs Challenge: Code Quiz URL](https://yooabby.github.io/Web-APIs-Challenge-Code-Quiz/) in your browser.
 2. Try to answer the following code-related questions within the time limit.
 3. Keep in mind that incorrect answers will penalize your score/time by ten second!
 
