@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #B0C4DE;
+    --secondary: #A9A9A9;
+    --accent: #FFFAFA;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.scores {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.timer {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.base {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+}
+  
+.hide {
+    display: none;
+}
+  
+.start {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.1s;
+}
+  
+a:hover {
+    color: var(--secondary);
+}
+  
+button {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 100%;
+    background-color: var(--primary);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: var(--accent);
+    border: 0;
+    transition: background-color 0.1s;
+}
+  
+button:hover {
+    background-color: var(--secondary);
+}
+  
+.choices button {
+    display: block;
+}
+  
+input[type="text"] {
+    font-size: 100%;
+}
+  
+.feedback {
+    font-style: italic;
+    font-size: 120%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: #A9A9A9;
+    border-top: 2px solid rgb(201, 193, 193);
+}
+
+/* score page */
+ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+}
+  
+li {
+    padding: 10px;
+    list-style: decimal inside none;
+}
+  
+li:nth-child(odd) {
+    background-color: var(--secondary);
